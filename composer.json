@@ -38,6 +38,7 @@
     }
   },
   "require-dev": {
+    "wpackagist-theme/twentyseventeen": ">1.4",
     "wpackagist-plugin/wordfence": ">7.1",
     "wpackagist-plugin/wp-fastest-cache": ">0.8.8.8",
     "wpackagist-plugin/all-in-one-wp-migration": ">6.81",
