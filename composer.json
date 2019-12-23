@@ -46,6 +46,7 @@
     "wpackagist-plugin/breadcrumb-navxt": "^6.3.0",
     "wpackagist-plugin/wps-hide-login": ">1.5",
     "wpackagist-plugin/widget-css-classes": ">1.5.3",
+    "wpackagist-plugin/happy-elementor-addons":">2.4.0"
     "dooioomoo/clayball": ">1.57",
     "wpackagist-plugin/reusable-content-blocks":">1.0"
   }
