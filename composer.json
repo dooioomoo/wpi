@@ -40,13 +40,14 @@
   "require-dev": {
     "wpackagist-theme/twentyseventeen": ">1.4",
     "wpackagist-plugin/wordfence": ">7.1",
+    "wpackagist-plugin/elementor":">2.8.0",
     "wpackagist-plugin/wp-fastest-cache": ">0.8.8.8",
     "wpackagist-plugin/all-in-one-wp-migration": ">6.81",
     "wpackagist-plugin/contact-form-7": ">5.1",
     "wpackagist-plugin/breadcrumb-navxt": "^6.3.0",
     "wpackagist-plugin/wps-hide-login": ">1.5",
     "wpackagist-plugin/widget-css-classes": ">1.5.3",
-    "wpackagist-plugin/happy-elementor-addons":">2.4.0"
+    "wpackagist-plugin/happy-elementor-addons":">2.4.0",
     "dooioomoo/clayball": ">1.57",
     "wpackagist-plugin/reusable-content-blocks":">1.0"
   }
