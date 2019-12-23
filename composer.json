@@ -1,0 +1,52 @@
+{
+  "name": "dooioomoo/wordpress_install",
+  "description": "install project for WordPress stack via Composer",
+  "authors": [
+    {
+      "name": "Ryan soong",
+      "homepage": "http://www.fduit.com/"
+    }
+  ],
+  "license": "MIT",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "composer/installers": "^v1.3",
+    "johnpbloch/wordpress": ">=4.9"
+  },
+  "extra": {
+    "wordpress-install-dir": "core",
+    "installer-paths": {
+      "vendor/{$vendor}/{$name}": [
+        "webdevstudios/cmb2"
+      ],
+      "content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "content/mu-plugins/{$name}": [
+        "type:wordpress-muplugin"
+      ],
+      "content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "require-dev": {
+    "wpackagist-plugin/wordfence": ">7.1",
+    "wpackagist-plugin/wp-fastest-cache": ">0.8.8.8",
+    "wpackagist-plugin/all-in-one-wp-migration": ">6.81",
+    "wpackagist-plugin/contact-form-7": ">5.1",
+    "wpackagist-plugin/breadcrumb-navxt": "^6.3.0",
+    "wpackagist-plugin/wps-hide-login": ">1.5",
+    "wpackagist-plugin/widget-css-classes": ">1.5.3",
+    "wpackagist-theme/twentyseventeen": ">1.4",
+    "dooioomoo/clayball": ">1.57",
+    "wpackagist-plugin/reusable-content-blocks":">1.0"
+  }
+}
