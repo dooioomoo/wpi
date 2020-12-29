@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "php": "^5.5 || ^7.0",
+    "php": "^7.0 ||^8.0",
     "composer/installers": "^v1.3",
     "johnpbloch/wordpress": ">=4.9"
   },
